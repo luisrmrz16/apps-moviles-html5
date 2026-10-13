@@ -1,0 +1,153 @@
+<!doctype html>
+<html lang="es-MX">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Desarrollo de aplicaciones móviles - Luis Ramírez</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        max-width: 800px;
+        margin: 0 auto;
+        padding: 10px 20px;
+        background: #f4f7fb;
+        color: #222;
+      }
+      header {
+        background: #1f4e79;
+        color: #fff;
+        padding: 15px 20px;
+      }
+      header h2 {
+        color: #fff;
+        font-size: 1em;
+        font-weight: normal;
+        margin: 4px 0 0;
+      }
+      nav ul {
+        list-style: none;
+        padding: 0;
+      }
+      nav li {
+        display: inline;
+        margin-right: 15px;
+      }
+      nav a {
+        color: #1f4e79;
+      }
+      section {
+        background: #fff;
+        padding: 10px 20px;
+        margin-bottom: 15px;
+      }
+      h2,
+      h3 {
+        color: #1f4e79;
+      }
+      figure {
+        text-align: center;
+      }
+      img {
+        max-width: 100%;
+        height: auto;
+      }
+      figcaption {
+        font-size: 0.9em;
+        color: #555;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <hgroup>
+        <h1>Desarrollo de aplicaciones móviles</h1>
+        <p>
+          Luis Ángel Ramírez Villanueva | Matrícula 187950 | Grupo K125
+        </p>
+      </hgroup>
+      <h2>Programación para Dispositivos Móviles - Actividad 3</h2>
+    </header>
+    <nav>
+      <ul>
+        <li><a href="#tipos">Tipos de aplicaciones</a></li>
+        <li><a href="#sistemas">Sistemas operativos</a></li>
+        <li><a href="#referencias">Referencias</a></li>
+      </ul>
+    </nav>
+    <section id="tipos">
+      <h2>Tipos de aplicaciones móviles</h2>
+      <article>
+        <h3>Nativas, web e híbridas</h3>
+        <p>Existen tres tipos principales de aplicaciones móviles:</p>
+        <ul>
+          <li>
+            <strong>Nativas:</strong> se programan para un solo sistema
+            operativo, como Android o iOS, y aprovechan todo el hardware del
+            teléfono.
+          </li>
+          <li>
+            <strong>Web:</strong> se abren desde el navegador y se hacen con
+            HTML, CSS y JavaScript.
+          </li>
+          <li>
+            <strong>Híbridas:</strong> combinan las dos anteriores; con
+            herramientas como Flutter o React Native se usa un mismo código para
+            varias plataformas.
+          </li>
+        </ul>
+        <figure>
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSI3MjAiIGhlaWdodD0iMzAwIiB2aWV3Qm94PSIwIDAgNzIwIDMwMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIj4KICA8cmVjdCB3aWR0aD0iNzIwIiBoZWlnaHQ9IjMwMCIgcng9IjE2IiBmaWxsPSIjZjhmYWZjIi8+CiAgPGcgdGV4dC1hbmNob3I9Im1pZGRsZSI+CiAgICA8IS0tIE5hdGl2YSAtLT4KICAgIDxyZWN0IHg9IjI0IiB5PSIyNCIgd2lkdGg9IjIwOCIgaGVpZ2h0PSIyNTIiIHJ4PSIxNCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjMGY3NjZlIiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDx0ZXh0IHg9IjEyOCIgeT0iNTQiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjMGY3NjZlIj5OYXRpdmE8L3RleHQ+CiAgICA8cmVjdCB4PSI0NCIgeT0iNzIiIHdpZHRoPSI3OCIgaGVpZ2h0PSI0MCIgcng9IjgiIGZpbGw9IiNjY2ZiZjEiLz48dGV4dCB4PSI4MyIgeT0iOTciIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMxMzRlNGEiPktvdGxpbi9KYXZhPC90ZXh0PgogICAgPHJlY3QgeD0iMTM0IiB5PSI3MiIgd2lkdGg9Ijc4IiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iI2NjZmJmMSIvPjx0ZXh0IHg9IjE3MyIgeT0iOTciIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMxMzRlNGEiPlN3aWZ0PC90ZXh0PgogICAgPHBhdGggZD0iTTgzIDExNnYzNE0xNzMgMTE2djM0IiBzdHJva2U9IiMwZjc2NmUiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHJlY3QgeD0iNDQiIHk9IjE1MiIgd2lkdGg9Ijc4IiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iIzBmNzY2ZSIvPjx0ZXh0IHg9IjgzIiB5PSIxNzciIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmZmYiPkFuZHJvaWQ8L3RleHQ+CiAgICA8cmVjdCB4PSIxMzQiIHk9IjE1MiIgd2lkdGg9Ijc4IiBoZWlnaHQ9IjQwIiByeD0iOCIgZmlsbD0iIzBmNzY2ZSIvPjx0ZXh0IHg9IjE3MyIgeT0iMTc3IiBmb250LXNpemU9IjEyIiBmaWxsPSIjZmZmIj5pT1M8L3RleHQ+CiAgICA8dGV4dCB4PSIxMjgiIHk9IjIyNCIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzMzNDE1NSI+VW4gY8OzZGlnbyBwb3IgcGxhdGFmb3JtYTwvdGV4dD4KICAgIDx0ZXh0IHg9IjEyOCIgeT0iMjQ0IiBmb250LXNpemU9IjEyIiBmaWxsPSIjMzM0MTU1Ij5Nw6F4aW1vIHJlbmRpbWllbnRvPC90ZXh0PgogICAgPCEtLSBXZWIgLS0+CiAgICA8cmVjdCB4PSIyNTYiIHk9IjI0IiB3aWR0aD0iMjA4IiBoZWlnaHQ9IjI1MiIgcng9IjE0IiBmaWxsPSIjZmZmZmZmIiBzdHJva2U9IiMxZDRlZDgiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHRleHQgeD0iMzYwIiB5PSI1NCIgZm9udC1zaXplPSIxOCIgZm9udC13ZWlnaHQ9ImJvbGQiIGZpbGw9IiMxZDRlZDgiPldlYjwvdGV4dD4KICAgIDxyZWN0IHg9IjI5MCIgeT0iNzIiIHdpZHRoPSIxNDAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjZGJlYWZlIi8+PHRleHQgeD0iMzYwIiB5PSI5NyIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzFlM2E4YSI+SFRNTDUgKyBDU1MgKyBKUzwvdGV4dD4KICAgIDxwYXRoIGQ9Ik0zNjAgMTE2djM0IiBzdHJva2U9IiMxZDRlZDgiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHJlY3QgeD0iMjkwIiB5PSIxNTIiIHdpZHRoPSIxNDAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjMWQ0ZWQ4Ii8+PHRleHQgeD0iMzYwIiB5PSIxNzciIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmZmYiPk5hdmVnYWRvcjwvdGV4dD4KICAgIDx0ZXh0IHg9IjM2MCIgeT0iMjI0IiBmb250LXNpemU9IjEyIiBmaWxsPSIjMzM0MTU1Ij5TaW4gaW5zdGFsYWNpw7NuIGRlc2RlIHRpZW5kYTwvdGV4dD4KICAgIDx0ZXh0IHg9IjM2MCIgeT0iMjQ0IiBmb250LXNpemU9IjEyIiBmaWxsPSIjMzM0MTU1Ij5BY2Nlc28gbGltaXRhZG8gYWwgaGFyZHdhcmU8L3RleHQ+CiAgICA8IS0tIEjDrWJyaWRhIC0tPgogICAgPHJlY3QgeD0iNDg4IiB5PSIyNCIgd2lkdGg9IjIwOCIgaGVpZ2h0PSIyNTIiIHJ4PSIxNCIgZmlsbD0iI2ZmZmZmZiIgc3Ryb2tlPSIjZDk3NzA2IiBzdHJva2Utd2lkdGg9IjIiLz4KICAgIDx0ZXh0IHg9IjU5MiIgeT0iNTQiIGZvbnQtc2l6ZT0iMTgiIGZvbnQtd2VpZ2h0PSJib2xkIiBmaWxsPSIjYjQ1MzA5Ij5Iw61icmlkYTwvdGV4dD4KICAgIDxyZWN0IHg9IjUyMiIgeT0iNzIiIHdpZHRoPSIxNDAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjZmVmM2M3Ii8+PHRleHQgeD0iNTkyIiB5PSI5NyIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzc4MzUwZiI+VW5hIGJhc2UgZGUgY8OzZGlnbzwvdGV4dD4KICAgIDxwYXRoIGQ9Ik01OTIgMTE2djM0IiBzdHJva2U9IiNkOTc3MDYiIHN0cm9rZS13aWR0aD0iMiIvPgogICAgPHJlY3QgeD0iNTIyIiB5PSIxNTIiIHdpZHRoPSIxNDAiIGhlaWdodD0iNDAiIHJ4PSI4IiBmaWxsPSIjZDk3NzA2Ii8+PHRleHQgeD0iNTkyIiB5PSIxNzciIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiNmZmYiPkNvbnRlbmVkb3IgbmF0aXZvPC90ZXh0PgogICAgPHRleHQgeD0iNTkyIiB5PSIyMjQiIGZvbnQtc2l6ZT0iMTIiIGZpbGw9IiMzMzQxNTUiPlNlIHB1YmxpY2EgZW4gbGFzIHRpZW5kYXM8L3RleHQ+CiAgICA8dGV4dCB4PSI1OTIiIHk9IjI0NCIgZm9udC1zaXplPSIxMiIgZmlsbD0iIzMzNDE1NSI+TWVub3IgY29zdG8geSB0aWVtcG88L3RleHQ+CiAgPC9nPgo8L3N2Zz4K"
+            alt="Comparación de aplicaciones nativas, web e híbridas"
+          />
+          <figcaption>Figura 1. Tipos de aplicaciones móviles.</figcaption>
+        </figure>
+      </article>
+    </section>
+    <section id="sistemas">
+      <h2>Sistemas operativos móviles</h2>
+      <article>
+        <h3>Android e iOS</h3>
+        <p>
+          Android, de Google, es el sistema más usado. Es de código abierto y lo
+          usan muchas marcas de teléfonos. Sus apps se desarrollan en Android
+          Studio con Kotlin o Java.
+        </p>
+        <p>
+          iOS, de Apple, solo funciona en el iPhone. Es un sistema cerrado, muy
+          seguro, y sus apps se crean en Xcode con el lenguaje Swift.
+        </p>
+        <figure>
+          <img
+            src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHdpZHRoPSIzNjAiIGhlaWdodD0iMzAwIiB2aWV3Qm94PSIwIDAgMzYwIDMwMCI+CiAgPGRlZnM+CiAgICA8bGluZWFyR3JhZGllbnQgaWQ9ImJnIiB4MT0iMCIgeTE9IjAiIHgyPSIxIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iIzBmNzY2ZSIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iIzFlM2E4YSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICAgIDxsaW5lYXJHcmFkaWVudCBpZD0ic2NyIiB4MT0iMCIgeTE9IjAiIHgyPSIwIiB5Mj0iMSI+CiAgICAgIDxzdG9wIG9mZnNldD0iMCIgc3RvcC1jb2xvcj0iI2VjZmVmZiIvPjxzdG9wIG9mZnNldD0iMSIgc3RvcC1jb2xvcj0iI2RiZWFmZSIvPgogICAgPC9saW5lYXJHcmFkaWVudD4KICA8L2RlZnM+CiAgPHJlY3Qgd2lkdGg9IjM2MCIgaGVpZ2h0PSIzMDAiIHJ4PSIxOCIgZmlsbD0idXJsKCNiZykiLz4KICA8Y2lyY2xlIGN4PSI2MCIgY3k9IjYwIiByPSIzOCIgZmlsbD0iI2Y1OWUwYiIgb3BhY2l0eT0iLjI1Ii8+CiAgPGNpcmNsZSBjeD0iMzEwIiBjeT0iMjUwIiByPSI1NCIgZmlsbD0iIzIyZDNlZSIgb3BhY2l0eT0iLjE4Ii8+CiAgPHJlY3QgeD0iMTIwIiB5PSIyMiIgd2lkdGg9IjEyMCIgaGVpZ2h0PSIyNTYiIHJ4PSIyMCIgZmlsbD0iIzBiMTIyMCIvPgogIDxyZWN0IHg9IjEyOCIgeT0iNDAiIHdpZHRoPSIxMDQiIGhlaWdodD0iMjE2IiByeD0iMTAiIGZpbGw9InVybCgjc2NyKSIvPgogIDxyZWN0IHg9IjE2MiIgeT0iMjkiIHdpZHRoPSIzNiIgaGVpZ2h0PSI1IiByeD0iMi41IiBmaWxsPSIjMzM0MTU1Ii8+CiAgPHJlY3QgeD0iMTM4IiB5PSI1MiIgd2lkdGg9Ijg0IiBoZWlnaHQ9IjIyIiByeD0iNiIgZmlsbD0iIzBmNzY2ZSIvPgogIDx0ZXh0IHg9IjE4MCIgeT0iNjciIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIxMCIgZmlsbD0iI2ZmZiIgdGV4dC1hbmNob3I9Im1pZGRsZSI+TWlzIGFwcHM8L3RleHQ+CiAgPGc+CiAgICA8cmVjdCB4PSIxNDAiIHk9Ijg2IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI2IiBmaWxsPSIjZjU5ZTBiIi8+CiAgICA8cmVjdCB4PSIxNjkiIHk9Ijg2IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI2IiBmaWxsPSIjMGVhNWU5Ii8+CiAgICA8cmVjdCB4PSIxOTgiIHk9Ijg2IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI2IiBmaWxsPSIjMTBiOTgxIi8+CiAgICA8cmVjdCB4PSIxNDAiIHk9IjExNiIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iNiIgZmlsbD0iIzYzNjZmMSIvPgogICAgPHJlY3QgeD0iMTY5IiB5PSIxMTYiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgcng9IjYiIGZpbGw9IiNlZjQ0NDQiLz4KICAgIDxyZWN0IHg9IjE5OCIgeT0iMTE2IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI2IiBmaWxsPSIjMTRiOGE2Ii8+CiAgICA8cmVjdCB4PSIxNDAiIHk9IjE0NiIgd2lkdGg9IjIyIiBoZWlnaHQ9IjIyIiByeD0iNiIgZmlsbD0iIzBmNzY2ZSIvPgogICAgPHJlY3QgeD0iMTY5IiB5PSIxNDYiIHdpZHRoPSIyMiIgaGVpZ2h0PSIyMiIgcng9IjYiIGZpbGw9IiNmOTczMTYiLz4KICAgIDxyZWN0IHg9IjE5OCIgeT0iMTQ2IiB3aWR0aD0iMjIiIGhlaWdodD0iMjIiIHJ4PSI2IiBmaWxsPSIjMWUzYThhIi8+CiAgPC9nPgogIDxyZWN0IHg9IjE0MCIgeT0iMTgyIiB3aWR0aD0iODAiIGhlaWdodD0iOCIgcng9IjQiIGZpbGw9IiM5NGEzYjgiLz4KICA8cmVjdCB4PSIxNDAiIHk9IjE5NiIgd2lkdGg9IjYwIiBoZWlnaHQ9IjgiIHJ4PSI0IiBmaWxsPSIjY2JkNWUxIi8+CiAgPHJlY3QgeD0iMTQwIiB5PSIyMjIiIHdpZHRoPSI4MCIgaGVpZ2h0PSIyMCIgcng9IjEwIiBmaWxsPSIjZjU5ZTBiIi8+CiAgPHRleHQgeD0iMTgwIiB5PSIyMzYiIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSI5IiBmaWxsPSIjMGIxMjIwIiB0ZXh0LWFuY2hvcj0ibWlkZGxlIj5JbnN0YWxhcjwvdGV4dD4KICA8dGV4dCB4PSIzNCIgeT0iMTUwIiBmb250LWZhbWlseT0iQXJpYWwsIHNhbnMtc2VyaWYiIGZvbnQtc2l6ZT0iMTMiIGZpbGw9IiNlY2ZlZmYiPiZsdDsvJmd0OzwvdGV4dD4KICA8dGV4dCB4PSIyNzAiIHk9IjExMCIgZm9udC1mYW1pbHk9IkFyaWFsLCBzYW5zLXNlcmlmIiBmb250LXNpemU9IjEzIiBmaWxsPSIjZWNmZWZmIj57IH08L3RleHQ+Cjwvc3ZnPgo="
+            alt="Ilustración de un teléfono inteligente"
+          />
+          <figcaption>
+            Figura 2. Un teléfono inteligente con su sistema operativo.
+          </figcaption>
+        </figure>
+      </article>
+    </section>
+    <section id="referencias">
+      <h2>Referencias</h2>
+      <ul>
+        <li>
+          Android Developers. (s.f.). <em>Introducción a Android Studio</em>.
+          https://developer.android.com/studio/intro?hl=es-419
+        </li>
+        <li>
+          Apple. (s.f.). <em>Xcode</em>. Apple Developer.
+          https://developer.apple.com/xcode/
+        </li>
+        <li>
+          Google. (s.f.). <em>FAQ</em>. Flutter.
+          https://docs.flutter.dev/resources/faq
+        </li>
+        <li>
+          Mozilla. (s.f.). <em>Referencia de elementos HTML</em>. MDN Web Docs.
+          https://developer.mozilla.org/es/docs/Web/HTML/Reference/Elements
+        </li>
+      </ul>
+    </section>
+  </body>
+</html>
